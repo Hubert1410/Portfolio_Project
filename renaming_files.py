@@ -1,9 +1,18 @@
+'''''''''''''''''''''''''''''''''
+Coping & Renaming specific files specified in Excel file.
+This Python code was made to automate our weekly process in my .
+Done by me with the help from colleague.
+
+Skills used: Pandas, DataFrame, File and Path Operations, Loops and Conditional Statements
+
+'''''''''''''''''''''''''''''''''
+
 import pandas as pd
 import os
 import shutil
 
 # Ścieżka do pliku Excela
-excel_path = "C:/Users/mahu2004/Desktop/Python_causals/nazwa_pliku_1.xlsx"
+excel_path = "C:/Users/Desktop/Python/Data.xlsx"
 
 # Wczytanie pliku Excela
 df = pd.read_excel(excel_path)
