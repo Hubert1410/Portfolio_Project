@@ -1,6 +1,6 @@
 '''''''''''''''''''''''''''''''''
 Coping & Renaming files specified in Excel file.
-This Python code was made to automate our weekly process in my .
+This Python code was made to automate our weekly process in my job.
 Done by me with the help from colleague.
 
 Skills used: Pandas, DataFrame, File and Path Operations, Loops and Conditional Statements
