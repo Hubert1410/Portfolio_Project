@@ -1,5 +1,5 @@
 '''''''''''''''''''''''''''''''''
-Coping & Renaming specific files specified in Excel file.
+Coping & Renaming files specified in Excel file.
 This Python code was made to automate our weekly process in my .
 Done by me with the help from colleague.
 
