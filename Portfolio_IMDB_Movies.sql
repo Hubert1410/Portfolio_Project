@@ -26,12 +26,12 @@ FROM CV_Project..Genres
 order by 1;
 
 
-SELECT DISTINCT REPLACE(Genre, ' ', '') AS Genre
+SELECT DISTINCT REPLACE(Genre, 'Â ', '') AS Genre
 FROM CV_Project..Genres
 ORDER BY 1;
 
 UPDATE CV_Project..Genres
-SET Genre = REPLACE(Genre, ' ', '');
+SET Genre = REPLACE(Genre, 'Â ', '');
 
 SELECT DISTINCT Genre
 FROM CV_Project..Genres;
@@ -49,7 +49,7 @@ FROM
 ORDER BY 3 desc;
 
 
------ Avarage score per country with more than 20 movies in the database ----- SELECT W SELEKCIE, FUNKCJE?
+----- Avarage score per country with more than 20 movies in the database -----
 
 	SELECT Original_Language, Number_of_movies, Sum_of_points, Round(Sum_of_points / Number_of_movies,2) AS Average
 FROM 
